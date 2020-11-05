@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+/*font-family: 'Orbitron', sans-serif;*/
+
+/*------------------ navbar */
+
+.nav-pills {
+    background-color: #4a4a4a;
+}
+
+/*nav link for the text links to pages not currently on*/
+.nav-link {
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+}
+/*nav link for links to pages not currently on*/
+
+.nav-link active {
+    color: black
+}
+
+.hvr-float:before {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+
+/*------background*/
+
+body {
+    background-image: url('../images/pendulumbackground.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+/*------------------ Footer */
+
+footer {
+    background-color: #525252;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    columns: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+.social-links li a i {
+    widows: 32px;
+    height: 32px;
+    padding: 12px;
+    border-radius: 50%;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #a60019;
+}

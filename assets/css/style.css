@@ -7,6 +7,7 @@ font-family: 'Orbitron', sans-serif;
 /*------------------ navbar */
 
 
+
 .nav-pills {
     background-color: #4a4a4a;
     text-align: center;
@@ -20,7 +21,6 @@ font-family: 'Orbitron', sans-serif;
     margin-right: 50px;
     width: auto;
 }
-/*nav link for links to pages not currently on*/
 
 .hvr-float:before {
     background: rgba(0, 0, 0, 0.2);
@@ -51,15 +51,16 @@ body {
 footer {
     background-color: #525252;
     position: fixed;
+    font-family: 'Orbitron', sans-serif;
     bottom: 0;
     left: 0;
-    columns: #fafafa;
-    min-height: 120px;
+    color: white;
+    max-height: 60px;
     margin: 0;
 }
 
 #footer-details {
-    padding: 20px;
+    padding: 10px;
 }
 
 .social-links li a i {
@@ -77,6 +78,15 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
+.social-links {
+    padding-top: 6px;
+}
+
 .social-links li a i:hover {
-    background: #a60019;
+    background: #636363;
+}
+
+.list-inline-item {
+    margin-left: 30px;
+    margin-right: 30px;
 }

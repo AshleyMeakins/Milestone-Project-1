@@ -28,14 +28,6 @@ font-family: 'Orbitron', sans-serif;
 
 /*------background*/
 
-body {
-    background-image: url('../images/pendulumbackground.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-/*------------------ body */
 /*------------------ slideshow */
 
 
@@ -44,6 +36,7 @@ body {
   height: 400px;
   overflow: hidden;
   opacity: 1.0;
+  position: static;
 }
 
 .middle {
@@ -117,6 +110,24 @@ input[name="r"] {
 
 
 /*------------------ slideshow */
+
+/*------------------ body */
+
+body {
+    background-image: url('../images/pendulumbackground.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    margin-top: 25px;
+    text-align: center;
+    width: 100%;
+    color: #fff
+}
 
 .wrapper {
     opacity: 0.8;

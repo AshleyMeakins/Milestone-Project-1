@@ -160,12 +160,47 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 110px;
-    border: 20px solid #303030;
+    border: 0px 20px 20px 20px solid #303030;
+    border-bottom: 20px solid #303030;
     width: 1000px;
     text-align:center;
     background-color: #303030;
     color: white;
     font-family: 'Orbitron', sans-serif;
+}
+
+/*------------------ gallery */
+
+.wrappergallery {
+    position: relative;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    border: 0px 20px 20px 20px solid #303030;
+    border-bottom: 20px solid #303030;
+    width: 1000px;
+    text-align:center;
+    background-color: #303030;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+
+.bandmembers {
+    max-width: 960px;
+}
+
+.gallery {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 50%;
 }
 
 /*------------------ Footer */

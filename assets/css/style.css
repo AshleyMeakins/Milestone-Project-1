@@ -171,6 +171,20 @@ h1 {
 
 /*------------------ gallery */
 
+.wrapperfullgallery {
+    position: relative;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px 20px 20px 20px solid #303030;
+    width: 1000px;
+    text-align:center;
+    background-color: #303030;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
 .wrappergallery {
     position: relative;
     font-weight: bold;
@@ -179,7 +193,6 @@ h1 {
     margin-right: auto;
     margin-bottom: 25px;
     border: 0px 20px 20px 20px solid #303030;
-    border-bottom: 20px solid #303030;
     width: 1000px;
     text-align:center;
     background-color: #303030;
@@ -202,6 +215,47 @@ h1 {
     margin-top: 15px;
     width: 50%;
 }
+
+.hide {
+  display: none;
+}
+
+.gallery:hover + .hide {
+    display: block;
+}
+
+.albums {
+    margin-bottom: 150px;
+}
+
+.album {
+    margin-bottom: 15px;
+    margin-top: 25px;
+    max-height: 300px;
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.wrapperalbum {
+    position: relative;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 110px;
+    border: 20px solid #303030;
+    width: 1000px;
+    text-align:center;
+    opacity: 0.8;
+    font-weight: bold;
+    background-color: #303030;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
 
 /*------------------ Footer */
 
@@ -239,12 +293,7 @@ footer {
     margin-right: 30px;
 }
 
-
-.backgroundimage {
-    background-image: url('../images/hall.jpg');
-}
-
-
+/*------------------ news letter */
 
 .newsletter-subscribe {
     color:#313437;
